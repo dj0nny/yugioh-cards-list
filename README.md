@@ -1,24 +1,9 @@
 # yugioh-cards-list
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Todo
+* [x] Generate the app
+* [ ] App clean up 
+* [ ] API setup (https://db.ygoprodeck.com/api-guide/)
+* [ ] Setup search form
+  * [ ] Add filters
+* [ ] Display the result
