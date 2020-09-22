@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: black;
+  color: #ec1f24;
+}
+
+h1.app__name {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 50px;
+}
+
+form.searchForm {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form.searchForm label {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+form.searchForm input {
+  width: 600px;
+  font-size: 20px;
+}
+
+form.searchForm button {
+  padding: 5px 20px;
+  margin: 0 20px;
+  border: 1px solid #ec1f24;
+  background-color: #ec1f24;
+  color: #fff;
+  font-size: 15px;
+  transition: .3s all;
+  cursor: pointer;
+}
+
+form.searchForm button:hover {
+  background: transparent;
+}
+
+.card {
+  width: 80%;
+  margin: 30px auto;
+  border: 1px solid #ec1f24;
+  padding: 15px;
+  text-align: center;
+}
+
+.card__details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.card__details div {
+  flex: 0.5;
+}
+
+.card__detailsRight h4 {
+  display: inline-block;
+}
+
+.card__detailsRight__field {
+  margin: 10px 0;
+}
+
+.card__detailsLeft img {
+  width: 50%;
+}
+
+.error {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
