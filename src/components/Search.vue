@@ -15,7 +15,7 @@ export default {
     handleSearch: Function,
   },
   setup(props) {
-    const cardName = ref('');
+    const cardName = ref('dark magician girl');
 
     const handleSubmit = () => {
       props.handleSearch(cardName.value);

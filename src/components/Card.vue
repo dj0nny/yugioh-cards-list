@@ -1,5 +1,6 @@
 <template>
   <div class="card">
+    <span class="favorite"></span>
     <h2>{{card[0].name}}</h2>
 
     <div class="card__details">

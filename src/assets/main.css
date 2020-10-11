@@ -87,3 +87,16 @@ form.searchForm button:hover {
   font-weight: bold;
   font-style: italic;
 }
+
+.favorite {
+	display: block;
+	float: right;
+	font-size: 35px;
+	position: relative;
+	top: -5px;
+	cursor: pointer;
+}
+
+.favorite::after {
+	content: "+";
+}
